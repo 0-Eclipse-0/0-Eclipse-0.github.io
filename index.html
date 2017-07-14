@@ -12,25 +12,14 @@ marquee {
     animation: moving 3s ease-in 2s infinite alternate;
     animation: moving 3s ease-out 2s infinite alternate;
     animation: moving 3s ease-in-out 2s infinite alternate;
-    transition: font-size 2s;
-    animation-name: rainbow;
-    animation-duration: 4s;
 }
 
 @keyframes moving {
-    0%   {left:0px; top:0px;}
-    25%  {left:100%; top:0px;}
-    50%  {left:100%; top:100%;}
-    75%  {left:0px; top:100%;}
-    100% {left:0px; top:0px;}
-}
-	
-@keyframes rainbow {
-    0%   {color:red; font-size: 40px;}
-    25%  {color:yellow; font-size: 25px;}
-    50%  {color:blue; font-size: 10px; }
-    75%  {color:green; font-size:25px
-    100% {color:red; font-size: 40px}
+    0%   {left:0px; top:0px; color:red; font-size: 40px;}
+    25%  {left:100%; top:0px; color:yellow; font-size: 25px;}
+    50%  {left:100%; top:100%; color:blue; font-size: 10px;}
+    75%  {left:0px; top:100%; color:green; font-size: 25px;}
+    100% {left:0px; top:0px; color:red; font-size: 40px;}
 }
 
 </style>
