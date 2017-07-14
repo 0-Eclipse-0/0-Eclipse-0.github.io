@@ -1,0 +1,98 @@
+Username: Coronon
+
+Reason For Leak:
+      Posted his BitCoin mining software and an IP logger on Scammer.info to turn unsuspecting users into his workers.
+      
+IP Logger:
+      https://goo.gl/MkHDd8
+            301 Redirect
+      https://grabify.link/QJTQDD
+            301 Redirect
+      https://s01.solidfilesusercontent.com     /YzU2OGFmN2YzNzk4ZWJmYzMyMmQ0OGQyZjViYjMyNGYzYWQxNmM1NDoxZFZpRGo6S09DSTNZYk5NUmNreHRZOHlIT2NIT2V6TDFV/xqxXAAp8ZrXM4/setup.exe
+            302 Redirect
+      http://www.solidfiles.com/v/xqxXAAp8ZrXM4
+      
+      
+      
+Zcash Info:
+      Pool: eu1-zcash.flypool.org
+      Wallet Address: t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq
+      Workers:
+            +----------------+------------------+------------------+--------------+----------------+
+            | Worker         | Current Hashrate | Average Hashrate | Valid Shares | Invalid Shares |
+            +----------------+------------------+------------------+--------------+----------------+
+            | default        | 4.2 kH/s         | 4.3 kH/s         | 332 (100%)   | 1 (0%)         |
+            +----------------+------------------+------------------+--------------+----------------+
+            | Ptica2         | 0 H/s            | 0.3H/s           | 0 (0%)       | 0 (0%)         |
+            +----------------+------------------+------------------+--------------+----------------+
+            | Ptica3         | 0 H/s            | 0.3H/s           | 0 (0%)       | 0 (0%)         |
+            +----------------+------------------+------------------+--------------+----------------+
+            | rig0           | 0 H/s            | 4.9H/s           | 0 (0%)       | 0 (0%)         |
+            +----------------+------------------+------------------+--------------+----------------+
+            | YourWorker     | 0 H/s            | 56.5H/s          | 0 (0%)       | 0 (0%)         |
+            +----------------+------------------+------------------+--------------+----------------+
+            | YourWorkerName | 0 H/s            | 1.1H/s           | 0 (0%)       | 0 (0%)         |
+            +----------------+------------------+------------------+--------------+----------------+
+            | yrdna8300      | 0 H/s            | 0.2H/s           | 0 (0%)       | 0 (0%)         |
+            +----------------+------------------+------------------+--------------+----------------+
+       Shares:  332 (100%) / 1 (0%)
+       Active Workers: 1
+       Hashrate: 4.2 kH/s 4.4 kH/s
+       Monthly Earnings:	$688.29
+       
+       
+ Worker Logins:
+ - t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq.default:z
+ - t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq.Ptica2:z
+ - t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq.Ptica3:z
+ - t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq.rig0:z
+ - t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq.YourWorker:z
+ - t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq.YourWorkerName:z
+ - t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq.yrdna8300:z
+ 
+ File Contents:
+      kc.bat:
+            TASKKILL /IM chrome.exe /F
+      $PROGRAMFILES/wruntime/config.txt:
+            -zpool eu1-zcash.flypool.org:3333
+            -zwal t1RjQjDbPQ9Syp97DHFyzvgZhcjgLTMwhaq
+            -zpsw z
+            #-tt 75
+            #-i 8
+            #-powlim 50
+            #-a 2
+            #-asm 0
+            #-allpools 1
+      $PROGRAMFILES/wruntime/rms.exe/.rsrc/version.txt:
+            FILEVERSION    1,0,0,0
+            PRODUCTVERSION 1,0,0,0
+            FILEFLAGSMASK  0x3F
+            FILEFLAGS      0x0
+            FILEOS         VOS_UNKNOWN | VOS__WINDOWS32
+            FILETYPE       VFT_APP
+            FILESUBTYPE    0x0
+           {
+            BLOCK "VarFileInfo"
+           {
+                  VALUE "Translation", 0x0, 1200
+           }
+                  BLOCK "StringFileInfo"
+                        {
+                              BLOCK "000004b0"
+                        {
+                                    VALUE "Comments",          "Runtime"
+                                    VALUE "CompanyName",       "Microsoft"
+                                    VALUE "FileDescription",   "Windows Runtime"
+                                    VALUE "FileVersion",       "1.0.0.0"
+                                    VALUE "InternalName",      "Bitcoinminer2.exe"
+                                    VALUE "LegalCopyright",    "Microsoft ©  2017"
+                                    VALUE "LegalTrademarks",   "Microsoft"
+                                    VALUE "OriginalFilename",  "Bitcoinminer2.exe"
+                                    VALUE "ProductName",       "Windows Runtime"
+                                    VALUE "ProductVersion",    "1.0.0.0"
+                                    VALUE "Assembly Version",  "4.1.7.3"
+                        }
+                  }
+            }
+      
+            
