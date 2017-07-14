@@ -2,24 +2,35 @@
 <html>
 <head>
 <style> 
+body {
+  backgrount-color: red;
+  animation: background-spasm 3s;
+}
+    
 marquee {
     width: 200px;
     height: 200px;
     font-size: 40px;
     position: relative;
     animation: moving 3s linear 2s infinite alternate;
-    animation: moving 3s ease 2s infinite alternate;
-    animation: moving 3s ease-in 2s infinite alternate;
-    animation: moving 3s ease-out 2s infinite alternate;
-    animation: moving 3s ease-in-out 2s infinite alternate;
 }
+
+    
 
 @keyframes moving {
     0%   {left:0px; top:0px; color:red; font-size: 40px;}
     25%  {left:100%; top:0px; color:yellow; font-size: 25px;}
     50%  {left:100%; top:100%; color:blue; font-size: 10px;}
     75%  {left:0px; top:100%; color:green; font-size: 25px;}
-    100% {left:0px; top:0px; color:red; font-size: 40px;}
+    100% {left:0px; top:0px; color:black; font-size: 40px;}
+}
+    
+@keyframes background-spasm {
+    0%   {background-color:yellow;}
+    25%  {background-color:blue;}
+    50%  {background-color:green;}
+    75%  {background-color:black;}
+    100% {background-color:red;}
 }
 
 </style>
