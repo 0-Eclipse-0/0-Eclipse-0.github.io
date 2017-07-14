@@ -13,6 +13,8 @@ marquee {
     animation: moving 3s ease-out 2s infinite alternate;
     animation: moving 3s ease-in-out 2s infinite alternate;
     transition: font-size 2s;
+    animation-name: rainbow;
+    animation-duration: 4s;
 }
 
 @keyframes moving {
@@ -22,9 +24,13 @@ marquee {
     75%  {left:0px; top:100%;}
     100% {left:0px; top:0px;}
 }
-
-marquee:hover {
-	font-size: 10px;
+	
+@keyframes rainbow {
+    0%   {color:red; font-size: 40px;}
+    25%  {color:yellow; font-size: 25px;}
+    50%  {color:blue; font-size: 10px; }
+    75%  {color:green; font-size:25px
+    100% {color:red; font-size: 40px}
 }
 
 </style>
