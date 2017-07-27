@@ -1,4 +1,9 @@
 (((((\(\d{3})|(\s\d{3}))((\)|-)|(\s|\) )|(\)-)?))?)|(\d{3}(-|\s)))?\d{3}(-|\s)\d{4}
+^^^
+Regular format, no country code
 
+(\+1|)(\+1\s)?(((((\(\d{3})|(\s\d{3}))((\)|-)|(\s|\) )|(\)-)?))?)|(\d{3}(-|\s)))?\d{3}(-|\s)\d{4}
+^^^
+With US country code
 
 Created by Eclipse for Graut and the scambaiting community
